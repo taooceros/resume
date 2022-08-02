@@ -7,46 +7,68 @@
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
-\name{Bin Yuan}
+\name{Hongtao Zhang}
 
 \basicInfo{
-  \email{yuanbin2014@gmail.com} \textperiodcentered\ 
-  \phone{(+86) 131-221-87xxx} \textperiodcentered\ 
-  \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}}
+  \email{hzhang784@wisc.edu} \textperiodcentered\
+  \phone{(608)960-6817} \textperiodcentered\
+  \linkedin[hongtao]{https://www.linkedin.com/in/hongtao-zhang-358458207/}\textperiodcentered\
+  \textbf{Github:} \href{https://github.com/taooceros}{taooceros}
+}
 
-\section{\faGraduationCap\ Education}
-\datedsubsection{\textbf{Shanghai Jiao Tong University (SJTU)}, Shanghai, China}{2013 -- Present}
-\textit{Master student} in Electronics Engineering (EE), expected March 2016
-\datedsubsection{\textbf{Xidian University}, Shaanxi, China}{2009 -- 2013}
-\textit{B.S.} in Electronics Engineering (EE)
-
-\section{\faUsers\ Experience}
-\datedsubsection{\textbf{FLAG Inc.} California, America}{2012 -- Present}
-\role{Summer Intern}{Manager: xxx}
-Brief introduction: xxx.
+\section{\texorpdfstring{\faGraduationCap}{}\ Education}
+\datedsubsection{\textbf{University of Wisconsin Madison}}{\textit{Madison, WI}, 12/2024}
+\textit{B.S.} in Computer Science, Mathematics, Statistics, Data Science\textperiodcentered\ \textit{L\&S Honors}\\
+\textbf{GPA}: 4.0/4.0.
+\section{\texorpdfstring{\faUsers}{}\ Experience}
+\datedsubsection{\textbf{\href{https://www.flowlauncher.com/}{Flow Launcher} | Github Open Source Project 1.8k \texorpdfstring{\faStar}{Star}}}{10/2020 -- Present}
+\role{C\# (.Net Core)}{Member}
+A plugin-driven launcher for Windows that help users to quickly launch apps, explore file/folder, and customizable functionalities with plugins.
 \begin{itemize}
-  \item Implemented xxx feature
-  \item Optimized xxx 5\%
-  \item xxx
+  \item Re-architected and optimized data transmission mechanism to allow large scale handling (1M+)
+  \item Redesigned communication protocol with plugins written in other language with JSONRPC Protocol.
+  \item Rewrote plugin co-routine model and Revised Asynchronous Events system
+  \item Rewrited UI Component with \textit{WPF} MVVM
+  \item Expanded 20+ External API
+  \item Constructed and Managed the Translation CI/CD \textit{Crowdin}
+  \item Organized the community
+  \item \texorpdfstring{\faStar}{Star} increased from 180 to 1.8k
 \end{itemize}
 
-\datedsubsection{\textbf{xxx Projects}}{Jan. 2015 -- Present}
-\role{C, Python, Django, Linux}{Individual Projects, collaborated with xxx}
-Brief introduction: xxx
+\datedsubsection{\textbf{\href{https://www.flowlauncher.com/docs/}{Flow Launcher Docs}}}{05/2021 -- Present}
+Document Websites for Flow Launcher
 \begin{itemize}
-  \item Implemented xxx feature
-  \item Optimized xxx 5\%
-  \item xxx
+  \item Wrote document and tutorial for .Net plugin development
+  \item Generated API Reference Page
+  \item Reorganized sidebar and Redesigned styles
 \end{itemize}
 
-\datedsubsection{\textbf{\LaTeX\ résumé template}}{May. 2015 -- Present}
-\role{\LaTeX, Maintainer}{Individual Projects}
-An elegant \LaTeX\ résumé template, https://github.com/billryan/resume
+\datedsubsection{\textbf{\href{https://github.com/Flow-Launcher/Flow.Launcher.PluginsManifest}{Flow Launcher PluginsManifest}}}{01/2021 -- Present}
+Plugin Management Repository for Flow Launcher
 \begin{itemize}
-  \item Easy to be further customized or extended
-  \item Full support for unicode characters (e.g. CJK) with \XeLaTeX\
-  \item FontAwesome 4.5.0 support
+  \item Designed the CI/CD with \textit{Github Action} to auto fetch plugin update information
+  \item Managed the new plugin submission process
 \end{itemize}
+
+\datedsubsection{\textbf{\href{https://github.com/taooceros/Flow.Plugin.WindowWalker}{Flow.Plugin.WindowWalker}}}{01/2021 -- Present}
+\role{C\# (.Net Core), Maintainer}{}
+A Plugin of Flow Launcher to switch between opened windows.
+\begin{itemize}
+  \item Constructed CI/CD with \textit{Github Action} (widely used in other plugins)
+  \item Improved Performance by 30\%
+  \item Expanded Features
+\end{itemize}
+
+\datedsubsection{\textbf{\href{https://vmawalk.vercel.app/}{VMAwalk}}}{06/2020 -- 01/2021}
+\role{HTML/CSS/JavaScript/C\#}{Individual Project, collaborated with \linkedin[Jeffrey Yu]{https://www.linkedin.com/in/jeffrey-zepeng-yu/} and \linkedin[Peng Qiu]{https://www.linkedin.com/in/peng-qiu-a791a2178/}}
+A peer-review platform for teachers and Courses for Vanke Meisha Academy.
+\begin{itemize}
+  \item Implemented the BackEnd Restful API \textit{ASP.Net Core} and User Management System (JWT)
+  \item Constructed and Managed the Database \textit{MS-SQL}
+  \item Implemented FrontEnd UI/UX Based on \textit{\href{https://layui.github.io/}{Layui}}
+  \item Optimized FrontEnd Performance and Front-Back Communication \textit{JQuery}
+\end{itemize}
+
 
 % Reference Test
 %\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
@@ -55,23 +77,13 @@ An elegant \LaTeX\ résumé template, https://github.com/billryan/resume
 %  \item main contribution
 %\end{itemize}
 
-\section{\faCogs\ Skills}
+\section{\texorpdfstring{\faCogs}{}\ Skills}
 \begin{itemize}[parsep=0.5ex]
-  \item Programming Languages: C == Python > C++ > Java
-  \item Platform: Linux
-  \item Development: Web, xxx
+  \item \textbf{Programming Languages}: C, C++, Python, Java, Go, JavaScript, TypeScript, R, Matlab, HTML, CSS, \LaTeX
+  \item \textbf{Framework \& Tools}: ASP.NET Core, Blazor, WPF, Sql-Server, Vue.js, React.js, Chakra UI, Qt, Node, Express.js, Django, Flask, Graphene, SQLAlchemy, Web Crawler, Pandas, Jupyter, Axios, JQuery, Nginx, Gunicorn
 \end{itemize}
 
-\section{\faHeartO\ Honors and Awards}
-\datedline{\textit{\nth{1} Prize}, Award on xxx }{Jun. 2013}
-\datedline{Other awards}{2015}
 
-\section{\faInfo\ Miscellaneous}
-\begin{itemize}[parsep=0.5ex]
-  \item Blog: http://your.blog.me
-  \item GitHub: https://github.com/username
-  \item Languages: English - Fluent, Mandarin - Native speaker
-\end{itemize}
 
 %% Reference
 %\newpage

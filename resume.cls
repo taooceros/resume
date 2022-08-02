@@ -32,10 +32,10 @@
 
 \RequirePackage[
 	a4paper,
-	left=0.8in,
-	right=0.8in,
-	top=0.70in,
-	bottom=0.55in,
+	left=0.35in,
+	right=0.35in,
+	top=0.35in,
+	bottom=0.35in,
 	nohead
 ]{geometry}
 
