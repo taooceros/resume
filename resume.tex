@@ -25,12 +25,13 @@
 \role{C\# (.Net Core)}{Member}
 A plugin-driven launcher for Windows that help users to quickly launch apps, explore file/folder, and customizable functionalities with plugins.
 \begin{itemize}
-  \item Re-architected and optimized data transmission mechanism to allow large scale handling (1M+)
+  \item Optimized display machamism to prevent freezing when processing large scale of results (10000+)
   \item Redesigned communication protocol with plugins written in other language with JSONRPC Protocol.
-  \item Rewrote plugin co-routine model and Revised Asynchronous Events system
-  \item Rewrited UI Component with \textit{WPF} MVVM
-  \item Expanded 20+ External API
-  \item Constructed and Managed the Translation CI/CD \textit{Crowdin}
+  \item Rewrote plugin parallel co-routine model and Revised Asynchronous Event Loop system
+  \item Designed and Implemented Extendable Highlight Mapping API transfering Pinyin query match to highlight displayed in Chinese with Range Binary Search to allow Pinyin user to understand the query match
+  \item Expanded 20+ external API to provide more flexibility to plugin authors.
+  \item Constructed and Managed the Translation CI/CD with \textit{Crowdin}
+  \item Refactored UI Component with \textit{WPF} MVVM
   \item Organized the community
   \item \texorpdfstring{\faStar}{Star} increased from 180 to 1.8k
 \end{itemize}
@@ -40,7 +41,7 @@ Document Websites for Flow Launcher
 \begin{itemize}
   \item Wrote document and tutorial for .Net plugin development
   \item Generated API Reference Page
-  \item Reorganized sidebar and Redesigned styles
+  \item Reorganized sidebar structure and styles
 \end{itemize}
 
 \datedsubsection{\textbf{\href{https://github.com/Flow-Launcher/Flow.Launcher.PluginsManifest}{Flow Launcher PluginsManifest}}}{01/2021 -- Present}
@@ -56,7 +57,7 @@ A Plugin of Flow Launcher to switch between opened windows.
 \begin{itemize}
   \item Constructed CI/CD with \textit{Github Action} (widely used in other plugins)
   \item Improved Performance by 30\%
-  \item Expanded Features
+  \item Implmenented Quick Window Search so that user may search a specific window by a customizable query
 \end{itemize}
 
 \datedsubsection{\textbf{\href{https://vmawalk.vercel.app/}{VMAwalk}}}{06/2020 -- 01/2021}
@@ -65,7 +66,7 @@ A peer-review platform for teachers and Courses for Vanke Meisha Academy.
 \begin{itemize}
   \item Implemented the BackEnd Restful API \textit{ASP.Net Core} and User Management System (JWT)
   \item Constructed and Managed the Database \textit{MS-SQL}
-  \item Implemented FrontEnd UI/UX Based on \textit{\href{https://layui.github.io/}{Layui}}
+  \item Implemented FrontEnd Pinyin and Acronym Fuzzy Search
   \item Optimized FrontEnd Performance and Front-Back Communication \textit{JQuery}
 \end{itemize}
 
