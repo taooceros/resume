@@ -34,7 +34,7 @@
 	a4paper,
 	left=0.35in,
 	right=0.35in,
-	top=0.25in,
+	top=0.35in,
 	bottom=0.25in,
 	nohead
 ]{geometry}
@@ -43,7 +43,7 @@
 \RequirePackage{enumitem}
 \setlist{noitemsep} % removes spacing from items but leaves space around the whole list
 %\setlist{nosep} % removes all vertical spacing within and around the list
-\setlist[itemize]{topsep=0.25em, leftmargin=1.5pc}
+\setlist[itemize]{topsep=0.25em, itemsep=0.20em, leftmargin=1.5pc}
 \setlist[enumerate]{topsep=0.25em, leftmargin=1.5pc}
 \RequirePackage[super]{nth}
 
