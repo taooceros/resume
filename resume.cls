@@ -32,9 +32,9 @@
 
 \RequirePackage[
 	a4paper,
-	left=0.35in,
-	right=0.35in,
-	top=0.35in,
+	left=0.4in,
+	right=0.4in,
+	top=0.45in,
 	bottom=0.25in,
 	nohead
 ]{geometry}
@@ -43,8 +43,8 @@
 \RequirePackage{enumitem}
 \setlist{noitemsep} % removes spacing from items but leaves space around the whole list
 %\setlist{nosep} % removes all vertical spacing within and around the list
-\setlist[itemize]{topsep=0.25em, itemsep=0.20em, leftmargin=1.5pc}
-\setlist[enumerate]{topsep=0.25em, leftmargin=1.5pc}
+\setlist[itemize]{topsep=0.10em, itemsep=0.3em, leftmargin=1.3pc}
+\setlist[enumerate]{topsep=0.15em, leftmargin=1.5pc}
 \RequirePackage[super]{nth}
 
 \titleformat{\section}         % Customise the \section command 
@@ -118,5 +118,5 @@
 
 \newcommand{\role}[2]{
   {\par \textit{#1} ~ #2 \par}
-  \vspace{0.85ex}
+  \vspace{0.15ex}
 }
